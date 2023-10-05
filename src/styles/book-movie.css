@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+  }
+
+  .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+ 
+  input[type=text]{
+    background-color: grey;
+    color: black
+  }
+
+  .sidebar {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(255,255,255,0.6);
+    overflow-x: hidden;
+    padding-top: 16px;
+  }
+  
+  .sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration:solid;
+    font-size: 20px;
+    color: black;
+    display: block;
+  }
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+
+  #icons {
+    color:black;
+
+  }
+  span{
+    color: white;
+  }
+  .seat{
+    color: black;
+  }
+  input[type=radio]{
+    color: black;
+  }
+  ::placeholder 
+  {
+    color: rgb(58, 53, 53);
+  }
+  
+  .err {
+    color: rgb(138, 21, 21);
+    font-weight: 100px;
+}
+
+.invalid-feedback{
+    font-size: 17px;
+    font-weight: 5opx;
+}
+:disabled{
+  /* background-color: rgb(88, 88, 173); */
+  cursor:not-allowed;
+}
+form.container-flex label, i {
+  color: white;
+}
+
+form.container-flex i {
+  color: white;
+}
+#movieId, #movieName, #theatreName,#bookdate, #category, #enteredNoTickets {
+  background-color: whitesmoke;
+}

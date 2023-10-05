@@ -1,0 +1,16 @@
+#coursal{
+    margin-bottom: 500px;
+
+}
+.card-deck .col-md-4 {
+    flex: 0 0 30%;
+    max-width: 24%;
+}
+img.card-img-top{
+    min-height: 500px;
+     
+}
+/* #root #bimg {
+    background:  black;
+    background-color: black;
+} */

@@ -1,0 +1,62 @@
+body {
+    background: #f5f5f5
+}
+
+.rounded {
+    border-radius: 1rem
+}
+
+.nav-pills .nav-link {
+    color: #555
+}
+
+.nav-pills .nav-link.active {
+    color: white
+}
+
+input[type="radio"] {
+    margin-right: 5px
+}
+
+.bold {
+    font-weight: bold
+}
+
+
+.sidebar {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(255,255,255,0.6);
+    overflow-x: hidden;
+    padding-top: 16px;
+  }
+  
+  .sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration:solid;
+    font-size: 20px;
+    color: black;
+    display: block;
+  }
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  #icons {
+    color:black;
+  
+  }
+  label, i {
+    color: black;
+  }
+  .card{
+  background-color : rgba(255,255,255,0.6);
+  }
+  .card-body {
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(255, 255, 255, 0.415));
+}
