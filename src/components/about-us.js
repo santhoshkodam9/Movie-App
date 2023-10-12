@@ -13,16 +13,7 @@ const AboutUs = (props) => {
             is one of the best medium of entertainment after having a hectic schedule. But all this excitement vanishes after standing in hours
             in long queues to get tickets booked.
         </p>
-        <p  style= { { fontStyle: 'italic', color : 'white', fontSize : 27 }} >We are....... </p>
-            <p id="devnames">
-  
-                Bolli Kranthi Kumar (Admin) <br/>
-                Ramadevi  <br/>
-                Sai Dhiraj <br/>
-                Chandu Hasini <br/>
-                Bharadwaj <br/>
-            </p>
-  
+           
     </div> <br/><br/><br/>
 
    </>)}
