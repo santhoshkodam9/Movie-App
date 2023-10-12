@@ -65,8 +65,8 @@ export default class TopNavbar extends Component {
                     <span class="dropdown">
                         <button class="dropbtn">CONTACT US</button>
                         <span class="dropdown-content">
-                            <a href= "/#">kranthikumar@gmail.com</a> 
-                            <a href= "/#">8978086371</a>
+                            <a href= "/#">santoshkodam99@gmail.com</a> 
+                            <a href= "/#">7981104144</a>
                         </span> 
                     </span>
                     <Link to="/login"> <li style={this.state.loggedUserName === "Login" ? { display: 'none' } : {}}><a  href= "/#" class="nav-link" name="loginlnk"  > {this.state.loggedUserName} <i class='fa fa-user'></i></a> </li> </Link>  
